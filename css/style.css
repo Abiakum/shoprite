@@ -1,15 +1,17 @@
 .top-bar {
   background-color: #212121;
-  height: 55px;
+  height: 45px;
   color: #ececec;
   padding: 2px 100px;
+  text-transform: #ececec;
   display: flex;
   justify-content: space-between;
+  font-size: 1.3rem;
 }
 
 .info-bar {
   color: crimson;
-  padding: 2px 100px;
+  padding: 5px 100px;
   font-weight: 900;
   font-size: 1.4rem;
 }
@@ -27,6 +29,1249 @@
   font-family: cooper black;
 }
 
+.support {
+  color: black;
+}
 
+.lower {
+  height: 22px;
+  width: 220px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.lower h6 {
+  margin-left: 5px;
+  font-size: 0.65rem;
+  margin-top: 1px;
+  color: #ececec;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.yellow {
+  color: yellow;
+  font-size: 0.95rem;
+  font-family: Brush Script MT;
+}
+
+.menu li {
+  display: inline-block;
+  font-family: "Poppins", Helvetica, Arial, Lucida, sans-serif;
+  margin-left: 30px;
+  font-size: 1rem;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #ececec;
+}
+
+.menu {
+  margin-top: -30px;
+  margin-left: 300px;
+  align-items: center;
+}
+
+.menu li:hover ul {
+  display: block;
+}
+
+.menu li a .fa {
+  font-size: 0.8rem;
+}
+.menu li ul {
+  background-color: #ececec;
+  width: 250px;
+  padding: 10px;
+  position: absolute;
+  top: 70px;
+  z-index: 10;
+  transition-property: display;
+  transition-duration: 2s;
+  display: none;
+}
+
+.page-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.page-section {
+  position: relative;
+}
+
+.page-section img.stuff {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.stuff {
+  display: none;
+}
+
+.active {
+  display: block;
+  animation-duration: 2s;
+  animation-name: fedein;
+}
+
+@keyframes fadeim {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.image-wrapper {
+  position: relative;
+  padding-top: 30px;
+}
+
+.whiskey {
+  height: 180px;
+  width: 500px;
+  margin-top: 30px;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.toys {
+  height: 180px;
+  width: 500px;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+
+.drinks {
+  height: 500px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.product-wrapper {
+  height: 100px;
+  width: 100%;
+}
+
+.soft-wrapper {
+  height: 220px;
+  width: 180px;
+  margin-left: 75px;
+  float: left;
+}
+
+.cleaning-wrapper {
+  height: 220px;
+  width: 180px;
+  float: left;
+  margin-left: 75px;
+}
+
+.snacks-wrapper {
+  height: 220;
+  width: 180px;
+  float: left;
+  margin-left: 75px;
+}
+
+.coffee-wrapper {
+  height: 220px;
+  width: 180px;
+  float: left;
+  margin-left: 75px;
+}
+
+.liquor-wrapper {
+  height: 220px;
+  width: 180px;
+  float: left;
+  margin-left: 75px;
+}
+
+.personal-wrapper {
+  height: 220px;
+  width: 180px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.appliance-wrapper {
+  height: 220px;
+  width: 180px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.wine-wrapper {
+  height: 220px;
+  width: 180px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.food-wrapper {
+  height: 220px;
+  width: 180px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.bakery-wrapper {
+  height: 220px;
+  width: 180px;
+  float: left;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.soft {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cleaning {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.snacks {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.coffee {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.liquor {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.personal {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.appliance {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.wine {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.food {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bakery {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.img1 {
+  width: 150px;
+  height: 160px;
+}
+
+.img2 {
+  width: 150px;
+  height: 160px;
+}
+
+.img3 {
+  width: 150px;
+  height: 160px;
+}
+
+.img4 {
+  width: 150px;
+  height: 160px;
+}
+
+.img5 {
+  width: 150px;
+  height: 160px;
+}
+
+.img6 {
+  width: 150px;
+  height: 160px;
+}
+
+.img7 {
+  width: 150px;
+  height: 160px;
+}
+
+.img8 {
+  width: 150px;
+  height: 160px;
+}
+
+.img9 {
+  width: 150px;
+  height: 160px;
+}
+
+.img10 {
+  width: 150px;
+  height: 160px;
+}
+
+.selling-wrapper {
+  height: 100px;
+  width: 100%;
+}
+
+.top-products {
+  width: 100%;
+  height: 1520px;
+  margin-top: 30px;
+}
+
+.product2-wrapper {
+  width: 100%;
+  height: 1520px;
+  margin-top: 30px;
+}
+
+.chin-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.chin {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.img11 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.chin-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Lemon {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.lemon-wrapper {
+  height: 220px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.img12 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.lemon-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.chips {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.chips-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.img13 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.chips-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Ginger-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Ginger-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.img14 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.Ginger {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.chocolate-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.chocolate-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.img15 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.chocolate {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.img16 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.Golden {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Golden-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Golden-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Castilo-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.img17 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.Castilo {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Castilo-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Apples {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.img18 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.Apples-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Apples-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.img19 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.Peak-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Peak {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Peak-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.img20 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.Mich {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Mich-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Mich-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Goslo {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.img21 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.Goslo-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Goslo-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Snickers-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Snickers-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Snikers {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.img22 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.Bounty {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Bounty-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Bounty-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.img23 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img24 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.Titus {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Titus-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Titus-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Oreo {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Oreo-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Oreo-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Deo {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Deo-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Deo-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Nivea {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Nivea-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Nivea-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Fries {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Fries-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Fries-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Plus {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Plus-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Plus-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Natural {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Natural-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Natural-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Bombay {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Bombay-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Bombay-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.img25 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img26 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img27 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img28 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img29 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img30 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img31 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img32 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img33 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img34 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img35 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img36 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img37 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img38 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img39 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img40 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img41 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img42 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.img43 {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.view {
+  color: #E02B20;
+  width: 100px;
+  height: 45px;
+  font-size: 15px;
+  font-family: "montserrat", Helvetica, Arial, lucida, sans-serif;
+  background-color: rgba(224, 43, 32, 0.04);
+  margin-right: 150px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+button {
+  border: transparent;
+  float: right;
+}
+
+.Nasco {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Nasco-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Nasco-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Ferrero {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Ferrero-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Ferrero-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Blue {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Blue-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Blue-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Beer {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Beer-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Beer-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Milk {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Milk-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Milk-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Blender {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Blender-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Blender-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Dettol {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Dettol-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Dettol-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.Juice {
+  color: black;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Juice-wrapper {
+  height: 280px;
+  width: 200px;
+  margin-left: 60px;
+  float: left;
+}
+
+.Juice-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
