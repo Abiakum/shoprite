@@ -1,0 +1,32 @@
+.top-bar {
+  background-color: #212121;
+  height: 55px;
+  color: #ececec;
+  padding: 2px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-bar {
+  color: crimson;
+  padding: 2px 100px;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+.navbar {
+  background-color: crimson;
+  height: 100px;
+  padding: 5px 100px;
+}
+
+.company-name {
+  color: #ececec;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  font-family: cooper black;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
